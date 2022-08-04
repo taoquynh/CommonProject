@@ -16,8 +16,19 @@ $ git push origin <branch_name>
 $ git pull origin <branch_name>
 ```
 
+- Tạo branch
+```
+$ git branch <branch_name>
+```
 
-anhnv
+- Chuyển nhánh
+```
+$ git checkout <branch_name>
+```
+Lưu ý, trước khi checkout, nhánh hiện tại phải được commit nếu có thay đổi
 
-//Cong is was here
-Vu Nam Ha edited 2
+- Fetch
+```
+$ git fetch origin <branch_name>
+```
+Sử dụng fetch branch khi chạy branch đó mà không cầm merge vào nhánh chính
